@@ -1,11 +1,8 @@
 import React from "react";
-import { Hello } from "./Hello";
+import { GameView } from "./components/GameView";
 
 export const App = () => (
-  <div>
-    <h1 className="text-xl text-primary-700 font-display font-bold underline">
-      Hello world!
-    </h1>
-    <Hello />
+  <div className="flex items-center justify-center h-screen gap-6 bg-slate-600">
+    <GameView />
   </div>
 );
